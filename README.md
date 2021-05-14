@@ -1,6 +1,6 @@
 # Unit 6 - Pythonic Monopoly
 
-![San Francisco Park Reading](Images/san-francisco-park-reading.jpg)
+![San Francisco Park Reading](https://github.com/Tijaw1/Pythonic-Monopoly/blob/main/park-san-francisco.jpg)
 
 ## Background
 
