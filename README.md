@@ -1,3 +1,5 @@
+![Home](https://github.com/drg-developer-2/homework-5/blob/master/Images/san-francisco-park-reading.jpg)
+
 # Pythonic-Monopoly
 
 The dashboard is a user interface that shows pertinent informaion regarding San Farancisco area housing and rental history. 
