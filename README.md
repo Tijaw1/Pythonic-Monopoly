@@ -75,6 +75,15 @@ Using the DataFrame of Average values per neighborhood (calculated above), creat
 2. Create a Parallel Categories Plot
 
   ![parallel-categories.png](Images/parallel-categories.png)
+  
+ #### Neighborhood Map
+
+In this final section, you will read in neighborhood location data and build an interactive map with the average prices per neighborhood. Use a scatter mapbox object from plotly express to create the visualization. Remember, you will need your mapbox API key for this.
+
+Remember that in order to create maps visualizations using Plotly Express, you will need to create an account at [mapbox](https://www.mapbox.com/) and [create an access token](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/#creating-and-managing-access-tokens).
+
+  ![neighborhood-map.png](Images/neighborhood-map.png)
+
 
 The dashboard is a user interface that shows pertinent informaion regarding San Farancisco area housing and rental history. 
 
