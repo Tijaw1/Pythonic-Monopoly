@@ -2,8 +2,6 @@
 
 ![San Francisco Park Reading](Images/san-francisco-park-reading.jpg)
 
-*[San Francisco Park Reading by Juan Salamanca](https://www.pexels.com/photo/park-san-francisco-reading-61109/) | [Free License](https://www.pexels.com/photo-license/)*
-
 ## Background
 
 Harold's company has just started a new Real Estate Investment division to provide customers with a broader range of portfolio options. Harold was tasked with building a prototype dashboard and he needs your help. The real estate team wants to trial this initial offering with investment opportunities for the San Francisco market. If the new service is popular, then they can start to expand to other markets.
@@ -22,11 +20,11 @@ Note: By default, the limits auto-scale to the data. However, it is hard to see 
 
 Default Bar Chart
 
-  ![unscaled-bar.png](Images/unscaled-bar.png)
+  ![unscaled-bar.png](https://github.com/Tijaw1/Pythonic-Monopoly/blob/main/Unscaled%20data.png)
 
 Bar Chart with y-axis limits adjusted
 
-  ![scaled-bar.png](Images/scaled-bar.png)
+  ![scaled-bar.png](https://github.com/Tijaw1/Pythonic-Monopoly/blob/main/Scaled%20data.png)
 
 
 #### Average Gross Rent in San Francisco Per Year
@@ -36,7 +34,7 @@ In this section, you want to visualize the average gross rent per year to better
 1. Calculate the mean `gross` for each year.
 2. Visualize the mean gross rent per year as a line chart.
 
-  ![gross-rent.png](Images/gross-rent.png)
+  ![gross-rent.png](https://github.com/Tijaw1/Pythonic-Monopoly/blob/main/Avg%20Gross%20rent%20per%20year.png)
 
 #### Average Sales Price Per Year
 
@@ -45,7 +43,7 @@ In this section, you want to determine the average sales price per year to bette
 1. Calculate the mean `gross` for each year.
 2. Visualize the mean gross rent per year as a line chart.
 
-  ![average-sales.png](Images/average-sales.png)
+  ![average-sales.png](https://github.com/Tijaw1/Pythonic-Monopoly/blob/main/Avg%20sale%20price%20per%20Year.png)
 
 #### Average Prices By Neighborhood
 
@@ -54,13 +52,13 @@ In this section, you want to compare the average prices by neighborhood.
 1. Group the data by year and by neighborhood and calculate the average (mean) `sales_price_sqr_foot`.
 2. Visualize the mean `sales_price_sqr_foot` per year with the neighborhood as a dropdown selector. Hint: Use hvplot to obtain the interactive dropdown selector for the neighborhood.
 
-  ![avg-price-neighborhood.png](Images/avg-price-neighborhood.png)
+  ![avg-price-neighborhood.png](https://github.com/Tijaw1/Pythonic-Monopoly/blob/main/Avg%20price%20per%20neighborhood.png)
 
 #### Top 10 Most Expensive Neighborhoods
 
 In this section, you want to figure out which neighborhoods are the most expensive. You will need to calculate the mean sale price for each neighborhood and then sort the values to obtain the top 10 most expensive neighborhoods on average. Plot the results as a bar chart.
 
-  ![top-10-expensive-neighborhoods.png](Images/top-10-expensive-neighborhoods.png)
+  ![top-10-expensive-neighborhoods.png](https://github.com/Tijaw1/Pythonic-Monopoly/blob/main/Top%20ten%20most%20expensive%20neighborhood.png)
 
 #### Parallel Coordinates and Parallel Categories Analysis
 
@@ -70,19 +68,17 @@ Using the DataFrame of Average values per neighborhood (calculated above), creat
 
 1. Create a Parallel Coordinates Plot
 
-  ![parallel-coordinates.png](Images/parallel-coordinates.png)
+  ![parallel-coordinates.png](https://github.com/Tijaw1/Pythonic-Monopoly/blob/main/Parallel%20coordinate%20plot.png)
 
 2. Create a Parallel Categories Plot
 
-  ![parallel-categories.png](Images/parallel-categories.png)
+  ![parallel-categories.png](https://github.com/Tijaw1/Pythonic-Monopoly/blob/main/Parallel%20category.png)
   
  #### Neighborhood Map
 
 In this final section, you will read in neighborhood location data and build an interactive map with the average prices per neighborhood. Use a scatter mapbox object from plotly express to create the visualization. Remember, you will need your mapbox API key for this.
 
-Remember that in order to create maps visualizations using Plotly Express, you will need to create an account at [mapbox](https://www.mapbox.com/) and [create an access token](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/#creating-and-managing-access-tokens).
-
-  ![neighborhood-map.png](Images/neighborhood-map.png)
+  ![neighborhood-map.png](https://github.com/Tijaw1/Pythonic-Monopoly/blob/main/Sale%20price%20map%20info%20of%20SF.png)
 
 
 The dashboard is a user interface that shows pertinent informaion regarding San Farancisco area housing and rental history. 
